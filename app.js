@@ -1,9 +1,4 @@
 let nombresAmigos = [];
-let pepe = "pepe";
-
-
-
-
 
 function agregarAmigo() {
 
@@ -14,8 +9,15 @@ function agregarAmigo() {
     } else {
         nombresAmigos.push(nombre);
         console.log(nombresAmigos);
+        enumerarAmigos();
         limpiarCaja();
     }
+}
+
+function enumerarAmigos() {
+    let amigos = document.getElementById('listaAmigos').innerHTML;
+    amigos += "<li>"+nombresAmigos[nombresAmigos.length -1]+"</li>";
+    document.getElementById("listaAmigos").innerHTML = amigos;
 }
 
 function limpiarCaja() {
