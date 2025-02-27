@@ -8,7 +8,7 @@ esta aplicación se creo usando JavaScrip, HTML y CSS.
 
 <h3>¿Cómo se usa?</h3>
 
-- Coloque en el buscado el siguiente enlace: https://gonzalox11.github.io/juego-del-amigo-secreto/
+- Coloque en el buscador el siguiente enlace: https://gonzalox11.github.io/juego-del-amigo-secreto/
 - Agregue los nombres de sus amigos.
 - Presione el botón "sortear amigo".
 - La pagina le dara un nombre al azar.
